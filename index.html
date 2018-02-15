@@ -13,49 +13,57 @@
       </form>
     </section>
     <section>
-      <form class="" action="index.html" method="post">
-        <label for="">Nombre de usuario:</label>
+      <form class="" action="index.html" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre de usuario:</label>
         <input type="text" name="nombre" placeholder="Nombre" id="nombre">
-        <label for="">Correo:</label>
+        <label for="correo">Correo:</label>
         <input type="text" name="correo" placeholder="Correo@correo.com" id="correo">
-        <label for="">Contraseña:</label>
+        <label for="contrasena">Contraseña:</label>
         <input type="password" name="contrasena" placeholder="Contraseña" id="contrasena">
+
+        <label for="avatar">Sube tu foto</label>
+        <fieldset>
+        <input type="file" name="" id="avatar" accept="image/jpeg">
+      </fieldset>
 
         <fieldset>
           <legend>Sexo:</legend>
         <input type="radio" name="sexo" value="Femenino" id="femenino">
-        <label for="">Femenino</label>
+        <label for="femenino">Femenino</label>
         <input type="radio" name="sexo" value="Masculino" id="masculino">
-        <label for="">Masculino</label>
+        <label for="masculino">Masculino</label>
       </fieldset>
 
       <fieldset>
         <legend>Seleciona una preferencia</legend>
         <input type="checkbox" name="preferencia1" value="p1" id="p1">
-        <label for="">preferencia 1</label>
+        <label for="p1">preferencia 1</label>
         <input type="checkbox" name="preferencia2" value="p2" id="p2">
-        <label for="">preferencia 2</label>
+        <label for="p2">preferencia 2</label>
         <input type="checkbox" name="preferencia3" value="p3" id="p3">
-        <label for="">preferencia3</label>
+        <label for="p3">preferencia3</label>
       </fieldset>
 
-      <label for="">Fecha de nacimiento</label>
+      <label for="fn">Fecha de nacimiento</label>
       <input type="date" name="fechadenacimiento" value="fn" id="fn">
 
-      <label for="">Que tal el sevicio</label>
+      <label for="servicio">Que tal el sevicio</label>
       <input type="range" name="servicio" id="servicio" min="5" max="20" step="2">
 
-      <label for="">Edad</label>
+      <label for="edad">Edad</label>
       <input type="number" name="edad" id="edad" min="18">
 
-      <label for="">A que hora te levantas</label>
+      <label for="levantas">A que hora te levantas</label>
       <input type="time" name="levantas" id="levantas">
 
-      <label for="">El URL de tu Facebook</label>
+      <label for="face">El URL de tu Facebook</label>
       <input type="url" name="face" id="face">
 
-      <label for="">Teléfono</label>
+      <label for="telefono">Teléfono</label>
       <input type="tel" name="telefono" id="telefono">
+
+      <label for="color">Color Favorito</label>
+      <input type="color" name="color" id="color">
 
         <input type="submit" name="" value="Entrar">
       </form>

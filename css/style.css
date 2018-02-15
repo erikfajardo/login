@@ -4,7 +4,6 @@ section{
 }
 form{
   width: 380px;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
 }

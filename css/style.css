@@ -1,0 +1,13 @@
+section{
+  display: flex;
+  justify-content: center;
+}
+form{
+  width: 380px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+.two-columns{
+  display: flex;
+}
